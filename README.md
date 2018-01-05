@@ -10,6 +10,12 @@ Just to reduce the effort of writing a new scrapper each time one has to get som
 
 ## 3. Installation
 
+First, you need to download this project, and open a command-line inside.
+
+Then you must install the dependencies, so:
+
+    ~$ npm install
+
 In order to use FastScrap, you only need to import the `fast-scrap.js` in your `*.js` file, like this:
 
     var FastScrap = require("fast-scrap.js");
@@ -50,6 +56,12 @@ This is how we can call the `FastScrap.run({...})` method (all the parameters ar
             // Typically, to close things
 	    }
     });
+
+To run the scrap itself, and suposing that your file is called `example.js` (as in the example), you only need to:
+
+    ~$ node example.js
+
+And the scrap will start then.
 
 ## 5. Notes
 
