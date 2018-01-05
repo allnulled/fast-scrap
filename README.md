@@ -18,7 +18,7 @@ Then you must install the dependencies, so:
 
 In order to use FastScrap, you only need to import the `fast-scrap.js` in your `*.js` file, like this:
 
-    var FastScrap = require("fast-scrap.js");
+    var FastScrap = require("./fast-scrap.js");
 
 
 ## 4. Usage
